@@ -152,7 +152,7 @@ function App() {
   );
 
   const renderDashboard = () => (
-    <div style={{ padding: '24px' }}>
+    <div style={{ padding: '24px 15%' }}>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', marginBottom: '32px' }}>
         <div style={{ backgroundColor: 'white', padding: '24px', borderRadius: '8px', boxShadow: '0 1px 3px rgba(0,0,0,0.1)' }}>
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
@@ -249,7 +249,7 @@ function App() {
   );
 
   const renderProductCreator = () => (
-    <div style={{ padding: '24px' }}>
+    <div style={{ padding: '24px 15%' }}>
       <div style={{ maxWidth: '800px', margin: '0 auto' }}>
         <div style={{ backgroundColor: 'white', borderRadius: '8px', boxShadow: '0 1px 3px rgba(0,0,0,0.1)' }}>
           <div style={{ padding: '24px', borderBottom: '1px solid #e5e7eb' }}>
@@ -403,7 +403,7 @@ function App() {
   );
 
   const renderProductAnalysis = () => (
-    <div style={{ padding: '24px' }}>
+    <div style={{ padding: '24px 15%' }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' }}>
         <h2 style={{ fontSize: '24px', fontWeight: '600', margin: 0 }}>Product Analysis</h2>
         <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
@@ -531,7 +531,7 @@ function App() {
   );
 
   const renderMarketIntelligence = () => (
-    <div style={{ padding: '24px' }}>
+    <div style={{ padding: '24px 15%' }}>
       <h2 style={{ fontSize: '24px', fontWeight: '600', margin: '0 0 24px 0' }}>Market Intelligence</h2>
 
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px', marginBottom: '24px' }}>
